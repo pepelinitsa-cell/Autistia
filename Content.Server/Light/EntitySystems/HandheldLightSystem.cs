@@ -1,7 +1,6 @@
 using Content.Server.Actions;
 using Content.Server.Popups;
 using Content.Shared.Actions;
-using Content.Shared.Examine;
 using Content.Shared.Interaction;
 using Content.Shared.Light;
 using Content.Shared.Light.Components;
@@ -44,7 +43,6 @@ namespace Content.Server.Light.EntitySystems
             SubscribeLocalEvent<HandheldLightComponent, MapInitEvent>(OnMapInit);
             SubscribeLocalEvent<HandheldLightComponent, ComponentShutdown>(OnShutdown);
 
-            SubscribeLocalEvent<HandheldLightComponent, ExaminedEvent>(OnExamine);
 
             SubscribeLocalEvent<HandheldLightComponent, ActivateInWorldEvent>(OnActivate);
 
@@ -142,13 +140,6 @@ namespace Content.Server.Light.EntitySystems
             return ent.Comp.Activated ? TurnOff(ent) : TurnOn(user, ent);
         }
 
-        private void OnExamine(EntityUid uid, HandheldLightComponent component, ExaminedEvent args)
-        {
-            args.PushMarkup(component.Activated
-                ? Loc.GetString("handheld-light-component-on-examine-is-on-message")
-                : Loc.GetString("handheld-light-component-on-examine-is-off-message"));
-        }
-
         public override void Shutdown()
         {
             base.Shutdown();
@@ -238,12 +229,12 @@ namespace Content.Server.Light.EntitySystems
 
             var appearanceComponent = EntityManager.GetComponentOrNull<AppearanceComponent>(uid);
 
-            var fraction = _battery.GetCharge(battery.Value.AsNullable()) / battery.Value.Comp.MaxCharge;
-            if (fraction >= 0.30)
+            var chargeFraction = _battery.GetChargeLevel(battery.Value.AsNullable());
+            if (chargeFraction >= 0.30)
             {
                 _appearance.SetData(uid, HandheldLightVisuals.Power, HandheldLightPowerStates.FullPower, appearanceComponent);
             }
-            else if (fraction >= 0.10)
+            else if (chargeFraction >= 0.10)
             {
                 _appearance.SetData(uid, HandheldLightVisuals.Power, HandheldLightPowerStates.LowPower, appearanceComponent);
             }
