@@ -1,4 +1,4 @@
-game-hud-open-escape-menu-button-tooltip = Open escape menu.
+game-hud-open-escape-menu-button-tooltip = Открыть меню паузы.
 game-hud-open-guide-menu-button-tooltip = Открыть меню справочника.
 game-hud-open-character-menu-button-tooltip = Открыть меню персонажа.
 game-hud-open-emotes-menu-button-tooltip= Открыть меню эмоций.
