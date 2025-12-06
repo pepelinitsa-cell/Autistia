@@ -3,5 +3,4 @@ mime-invisible-wall-popup-self = Ты натыкаешься на невидим
 mime-invisible-wall-popup-others = {CAPITALIZE(THE($mime))} натыкается на невидимую стену!
 mime-invisible-wall-failed = Там невозможно создать невидимую стену..
 mime-not-ready-repent = Ты еще не готов раскаяться в нарушенном обете..
-mime-ready-to-repent = 
-Вы чувствуете, что готовы снова принять свой обет.
+mime-ready-to-repent = Вы чувствуете, что готовы снова принять свой обет.
