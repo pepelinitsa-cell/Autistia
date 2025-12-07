@@ -32,6 +32,8 @@ namespace Content.Shared.Localizations
 
             _loc.LoadCulture(culture);
             _loc.LoadCulture(Oldculture); // Autistia
+            _loc.AddFunction(culture, "MAKEPLURAL", FormatMakePlural); // Autistia
+            _loc.AddFunction(culture, "MANY", FormatMany); // Autistia
             _loc.AddFunction(culture, "PRESSURE", FormatPressure);
             _loc.AddFunction(culture, "POWERWATTS", FormatPowerWatts);
             _loc.AddFunction(culture, "POWERJOULES", FormatPowerJoules);
