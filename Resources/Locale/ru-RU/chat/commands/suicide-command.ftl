@@ -1,10 +1,10 @@
-suicide-command-description = Commits suicide
-suicide-command-help-text = The suicide command gives you a quick way out of a round while remaining in-character.
-                            The method varies, first it will attempt to use the held item in your active hand.
-                            If that fails, it will attempt to use an object in the environment.
-                            Finally, if neither of the above worked, you will die by biting your tongue.
-suicide-command-default-text-others = {CAPITALIZE(THE($name))} is attempting to bite {POSS-ADJ($name)} own tongue!
-suicide-command-default-text-self = You attempt to bite your own tongue!
-suicide-command-already-dead = You can't suicide. You're dead.
-suicide-command-no-mind = You have no mind!
-suicide-command-denied = You cannot suicide right now.
+suicide-command-description = Совершает самоубийство
+suicide-command-help-text = Команда «Суицид» позволяет вам быстро выйти из раунда, оставаясь в образе персонажа..
+                            Метод различается: сначала будет предпринята попытка использовать предмет, который вы держите в активной руке..
+                            Если это не удается, он попытается использовать объект в окружающей среде..
+                            Наконец, если ни один из вышеперечисленных способов не помог, вы умрете, прикусив свой язык..
+suicide-command-default-text-others = {CAPITALIZE(THE($name))} Пытается прикусить {POSS-ADJ($name)} собственный язык!
+suicide-command-default-text-self = Вы пытаетесь прикусить свой собственный язык!
+suicide-command-already-dead = Ты не можешь покончить жизнь самоубийством. Ты мертв..
+suicide-command-no-mind = У тебя нет мозга!
+suicide-command-denied = Вы не можете совершить самоубийство прямо сейчас..

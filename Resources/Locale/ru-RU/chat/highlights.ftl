@@ -1,57 +1,57 @@
 # Command
-highlights-captain = Captain, "Cap", Bridge, Command
-highlights-head-of-personnel = Head Of Personnel, "HoP", Service, Bridge, Command
-highlights-chief-engineer = Chief Engineer, "CE", Engineering, Engineer, "Engi", Bridge, Command
-highlights-chief-medical-officer = Chief Medical Officer, "CMO", MedBay, "Med", Bridge, Command
-highlights-head-of-security = Head of Security, "HoS", Security, "Sec", Bridge, Command
-highlights-quartermaster = Quartermaster, "QM", Cargo, Bridge, Command
-highlights-research-director = Research Director, "RD", Science, "Sci", Bridge, Command
+highlights-captain = Капитан, "Кэп", Мостик, Командование
+highlights-head-of-personnel = Глава персонала, "Гп", Сервис, Мостик, Командование
+highlights-chief-engineer = Старший инженер, "Си", Инженерия, инженер, "инж", Мостик, Командование
+highlights-chief-medical-officer = Главный врач, "Гв", Медбей, "Мед", Мостик, Командование
+highlights-head-of-security = Глава службы безопасности, "Гсб", Служба безопасности, "Сб", Мостик, Командование
+highlights-quartermaster = Квартирмейстер, "Км", Карго, Мостик, Командование
+highlights-research-director = Научный руководитель, "Нр", Наука, "Нио", Мостик, Командование
 
 # Security
-highlights-detective = Detective, "Det", Security, "Sec"
-highlights-security-cadet = Security Cadet, Secoff, Cadet, Security, "Sec"
-highlights-security-officer = Security Officer, Secoff, Officer, Security, "Sec"
-highlights-warden = Warden, "Ward", Security, "Sec"
+highlights-detective = детектив, Безопасность, "Сб"
+highlights-security-cadet = Кадет службы безопасности, Кадет, "Сб"
+highlights-security-officer = ОФицер службы безопасности, Офицер, Безопасность, "Сб"
+highlights-warden = Смотритель, "Вард", Безопасность, "Сб"
 
 # Cargo
-highlights-cargo-technician = Cargo Technician, Cargo Tech, "Cargo"
-highlights-salvage-specialist = Salvage Specialist, Salvager, Salvage, "Salv", "Cargo", Miner
+highlights-cargo-technician = Карго техник, Карго тех, Отдел снабжения, "Карго"
+highlights-salvage-specialist = Утилизатор, "Утиль, Отдел снабжения, "Карго", Шахтер
 
 # Engineering
-highlights-atmospheric-technician = Atmospheric Technician, Atmos tech, Atmospheric, Engineering, "Atmos", "Engi"
-highlights-station-engineer = Station Engineer, Engineering, Engineer, "Engi"
-highlights-technical-assistant = Technical Assistant, Tech Assistant, Engineering, Engineer, "Engi"
+highlights-atmospheric-technician = Атмосферный техник, Атмос техник, Атмосфера, Инженерия, "Атмос", "Инж"
+highlights-station-engineer = Инженер, Инженерия, Инженер, "Инж"
+highlights-technical-assistant = Инженер стажёр, Инженерия, Инженер, "Инж"
 
 # Medical
-highlights-chemist = Chemist, Chemistry, "Chem", MedBay, "Med"
-highlights-medical-doctor = Medical Doctor, Doctor, "Doc", MedBay, "Med"
-highlights-medical-intern = Medical Intern, "Doc", Intern, MedBay, "Med"
-highlights-paramedic = Paramedic, "Para", MedBay, "Med"
+highlights-chemist = Химик, Химия, "Химка", Медбей, "Мед"
+highlights-medical-doctor = Доктор, Doctor, "Док", Медбей, "Мед"
+highlights-medical-intern = Интерн, "Док", Интерн, Медбей, "Мед"
+highlights-paramedic = Парамедик, "Парамед", Медбей, "Мед"
 
 # Science
-highlights-scientist = Scientist, Science, "Sci"
-highlights-research-assistant = Research Assistant, Science, "Sci"
+highlights-scientist = Учёный, Наука, "Нио"
+highlights-research-assistant = Лаборант, Наука, "Нио"
 
 # Civilian
-highlights-bartender = Bartender, Barkeeper, Barkeep, "Bar"
-highlights-botanist = Botanist, Botany, Hydroponics
+highlights-bartender = Бармен, Гарсон, Бариста, "Бар"
+highlights-botanist = Ботаник, Ботаника, Гидропоника
 highlights-chaplain = Chaplain, "Chap", Chapel
-highlights-chef = Chef, "Cook", Kitchen
-highlights-clown = Clown, Jester
-highlights-janitor = Janitor, "Jani"
-highlights-lawyer = Lawyer, Attorney
-highlights-librarian = Librarian, Library
-highlights-mime = Mime
-highlights-passenger = Passenger, Greytider, "Tider"
-highlights-service-worker = Service Worker
+highlights-chef = Шеф, "Cook", Кухня
+highlights-clown = Клоун, Шут
+highlights-janitor = Уборщик, 
+highlights-lawyer = Юрист, адвокат
+highlights-librarian = Библиотекарь, Библиотека
+highlights-mime = Мим
+highlights-passenger = Ассистент, Грейтайдер, "Серый"
+highlights-service-worker = Сервисный работник
 
 # Station-specific
-highlights-boxer = Boxer
-highlights-reporter = Reporter, Journalist
-highlights-zookeeper = Zookeeper
-highlights-psychologist = Psychologist, Psychology
+highlights-boxer = Боксер
+highlights-reporter = Репортер, Журналист
+highlights-zookeeper = зоотехник
+highlights-psychologist = Психиатр, Психолог
 
 # Silicon
-highlights-personal-ai = Personal AI, "pAI"
-highlights-cyborg = Cyborg, Silicon, Borg
-highlights-station-ai = Station AI, Silicon, "AI", "sAI"
+highlights-personal-ai = Персональный ии, "Пии"
+highlights-cyborg = Киборг, Синтетик, борг
+highlights-station-ai = Станционный ии, Синтетик, "Ии", "Ции"
